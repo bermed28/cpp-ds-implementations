@@ -170,6 +170,60 @@ List/SinglyLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/List/SinglyLinkedList.cpp.s
 .PHONY : List/SinglyLinkedList.cpp.s
 
+Queue/StackQueue.o: Queue/StackQueue.cpp.o
+
+.PHONY : Queue/StackQueue.o
+
+# target to build an object file
+Queue/StackQueue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.o
+.PHONY : Queue/StackQueue.cpp.o
+
+Queue/StackQueue.i: Queue/StackQueue.cpp.i
+
+.PHONY : Queue/StackQueue.i
+
+# target to preprocess a source file
+Queue/StackQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.i
+.PHONY : Queue/StackQueue.cpp.i
+
+Queue/StackQueue.s: Queue/StackQueue.cpp.s
+
+.PHONY : Queue/StackQueue.s
+
+# target to generate assembly for a file
+Queue/StackQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.s
+.PHONY : Queue/StackQueue.cpp.s
+
+Stack/SinglyLinkedStack.o: Stack/SinglyLinkedStack.cpp.o
+
+.PHONY : Stack/SinglyLinkedStack.o
+
+# target to build an object file
+Stack/SinglyLinkedStack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Stack/SinglyLinkedStack.cpp.o
+.PHONY : Stack/SinglyLinkedStack.cpp.o
+
+Stack/SinglyLinkedStack.i: Stack/SinglyLinkedStack.cpp.i
+
+.PHONY : Stack/SinglyLinkedStack.i
+
+# target to preprocess a source file
+Stack/SinglyLinkedStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Stack/SinglyLinkedStack.cpp.i
+.PHONY : Stack/SinglyLinkedStack.cpp.i
+
+Stack/SinglyLinkedStack.s: Stack/SinglyLinkedStack.cpp.s
+
+.PHONY : Stack/SinglyLinkedStack.s
+
+# target to generate assembly for a file
+Stack/SinglyLinkedStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CPP_Data.dir/build.make CMakeFiles/CPP_Data.dir/Stack/SinglyLinkedStack.cpp.s
+.PHONY : Stack/SinglyLinkedStack.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +263,12 @@ help:
 	@echo "... List/SinglyLinkedList.o"
 	@echo "... List/SinglyLinkedList.i"
 	@echo "... List/SinglyLinkedList.s"
+	@echo "... Queue/StackQueue.o"
+	@echo "... Queue/StackQueue.i"
+	@echo "... Queue/StackQueue.s"
+	@echo "... Stack/SinglyLinkedStack.o"
+	@echo "... Stack/SinglyLinkedStack.i"
+	@echo "... Stack/SinglyLinkedStack.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

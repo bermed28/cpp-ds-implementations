@@ -4,6 +4,15 @@
 CMakeFiles/CPP_Data.dir/List/SinglyLinkedList.cpp.o: ../List/SinglyLinkedList.cpp
 CMakeFiles/CPP_Data.dir/List/SinglyLinkedList.cpp.o: ../List/SinglyLinkedList.hpp
 
+CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.o: ../Queue/StackQueue.cpp
+CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.o: ../Queue/StackQueue.h
+CMakeFiles/CPP_Data.dir/Queue/StackQueue.cpp.o: ../Stack/SinglyLinkedStack.h
+
+CMakeFiles/CPP_Data.dir/Stack/SinglyLinkedStack.cpp.o: ../Stack/SinglyLinkedStack.cpp
+CMakeFiles/CPP_Data.dir/Stack/SinglyLinkedStack.cpp.o: ../Stack/SinglyLinkedStack.h
+
 CMakeFiles/CPP_Data.dir/main.cpp.o: ../List/SinglyLinkedList.hpp
+CMakeFiles/CPP_Data.dir/main.cpp.o: ../Queue/StackQueue.h
+CMakeFiles/CPP_Data.dir/main.cpp.o: ../Stack/SinglyLinkedStack.h
 CMakeFiles/CPP_Data.dir/main.cpp.o: ../main.cpp
 

@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.cpp
-SinglyLinkedList.hpp
 /Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+stdexcept
+-
 
-/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+/Users/bermed28/Desktop/CPP_Data/Queue/StackQueue.h
+../Stack/SinglyLinkedStack.h
+/Users/bermed28/Desktop/CPP_Data/Stack/SinglyLinkedStack.h
+
+/Users/bermed28/Desktop/CPP_Data/Stack/SinglyLinkedStack.h
 stdexcept
 -
 
@@ -19,4 +23,8 @@ iostream
 -
 List/SinglyLinkedList.hpp
 /Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+Stack/SinglyLinkedStack.h
+/Users/bermed28/Desktop/CPP_Data/Stack/SinglyLinkedStack.h
+Queue/StackQueue.h
+/Users/bermed28/Desktop/CPP_Data/Queue/StackQueue.h
 
