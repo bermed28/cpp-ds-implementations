@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.cpp
+SinglyLinkedList.hpp
+/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+
+/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+stdexcept
+-
+
+/Users/bermed28/Desktop/CPP_Data/main.cpp
+iostream
+-
+List/SinglyLinkedList.hpp
+/Users/bermed28/Desktop/CPP_Data/List/SinglyLinkedList.hpp
+
